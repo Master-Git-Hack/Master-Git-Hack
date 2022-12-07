@@ -15,7 +15,7 @@ I'm Einar Serna a Full Stack Web Developer. I spend most of my time coding and l
 
 <!-- TODO: Make technologies links takes you to repositories -->
 
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Python Badge]()](#) [![Flask Badge]()](#) [![FastAPI Badge]()](#) [![PostgreSQL Badge]()](#)
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Python Badge](https://img.shields.io/badge/-python-4786B8?style=for-the-badge&labelColor=black&logo=python&logoColor=white)](#) [![Flask Badge](https://img.shields.io/badge/-FLASK-000000?style=for-the-badge&labelColor=white&logo=FLASK&logoColor=000000)](#) [![FastAPI Badge](https://img.shields.io/badge/-FastAPI-00766A?style=for-the-badge&labelColor=black&logo=FastAPI&logoColor=FFFFFF)](#) [![PostgreSQL Badge](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&labelColor=black&logo=PostgreSQL&logoColor=336791)](#)
 
 
 
@@ -44,8 +44,6 @@ I love sharing knowledge and learning new things;
 
 ![Einar Serna's github stats](https://github-readme-stats.vercel.app/api?username=Master-Git-Hack&count_private=true&theme=tokyonight&hide=contribs,prs)
 
-<!--START_SECTION:waka-->
-  
-<!--END_SECTION:waka-->
+<figure><embed src="https://wakatime.com/share/@38bf0fe6-edc6-4cd7-a3ee-b60610a65a08/d5f495a4-4b30-4174-95e6-ed73a9e43621.svg"></embed></figure>
 </details>
 
