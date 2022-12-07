@@ -40,7 +40,9 @@ I love sharing knowledge and learning new things;
 
 #### Top Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Master-Git-Hack)](https://github.com/anuraghazra/github-readme-stats)
+  
 <figure><embed src="https://wakatime.com/share/@38bf0fe6-edc6-4cd7-a3ee-b60610a65a08/d5f495a4-4b30-4174-95e6-ed73a9e43621.svg"></embed></figure>
+
 #### Github Stats
 
 ![Einar Serna's github stats](https://github-readme-stats.vercel.app/api?username=Master-Git-Hack&count_private=true&theme=tokyonight&hide=contribs,prs)
