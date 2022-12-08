@@ -18,6 +18,16 @@ I'm Einar Serna a Full Stack Web Developer. I spend most of my time coding and l
 -   :computer: I love to code, and I see as a way to express myself.
 -   :tv: I love to watch movies and series.
 
+## S.O.L.I.D.
+
+:white_check_mark: [Reference](https://github.com/ipenywis/react-solid)
+-   SRP: Single Responsibility Principle
+-   OCP: Open-Closed Principle
+-   LSP: Liskov Substitution Principle
+-   ISP: Interface Segregation Principle
+-   DIP: Dependency Inversion Principle
+
+
 ## Top Technologies
 
 ### Languages
