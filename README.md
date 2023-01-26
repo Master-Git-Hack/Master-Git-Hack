@@ -123,6 +123,9 @@ I'm Einar Serna a Full Stack Web Developer. I spend most of my time coding and l
 
 -   :paperclip: [My Resume/CV](https://github.com/Master-Git-Hack/Master-Git-Hack/blob/b35a9de84a6165232b8337a99c5449aba8b11bd2/Resume.pdf)
 -   :email: jhordany.serna@gmail.com
+-   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+-   <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="einar-serna" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://mx.linkedin.com/in/einar-serna?trk=profile-badge">Einar Serna</a></div>
+              
 
 ## Profile Visits
 
