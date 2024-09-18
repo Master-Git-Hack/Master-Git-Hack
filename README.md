@@ -57,7 +57,7 @@ I'm Einar Serna a Full Stack Web Developer. I spend most of my time coding and l
 </summary>
 
 ### Version Control
-
+[![GitHub Badge](https://images.credly.com/size/220x220/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png)](#)
 [![Git Badge](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&labelColor=black&logo=git&logoColor=white)](#)
 [![GitHub Badge](https://img.shields.io/badge/github-5C2D91.svg?style=for-the-badge&labelColor=black&logo=github&logoColor=white)](#)
 [![GitLab Badge](https://img.shields.io/badge/gitlab-red.svg?style=for-the-badge&labelColor=black&logo=gitlab&logoColor=white)](#)
