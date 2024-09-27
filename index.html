@@ -13,6 +13,62 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			window.onload = () => {
+				consoleText(
+					['Welcome...', 'I present myself to you:', 'Einar Serna', 'Full Stack Developer'],
+					'text',
+					['white']
+				);
+
+				function consoleText(words, id, colors) {
+					if (colors === undefined) colors = ['#fff'];
+					var visible = true;
+					var con = document.getElementById('console');
+					var letterCount = 1;
+					var x = 1;
+					var waiting = false;
+					var target = document.getElementById(id);
+					target.setAttribute('style', 'color:' + colors[0]);
+					window.setInterval(function () {
+						if (letterCount === 0 && waiting === false) {
+							waiting = true;
+							target.innerHTML = words[0].substring(0, letterCount);
+							window.setTimeout(function () {
+								var usedColor = colors.shift();
+								colors.push(usedColor);
+								var usedWord = words.shift();
+								words.push(usedWord);
+								x = 1;
+								target.setAttribute('style', 'color:' + colors[0]);
+								letterCount += x;
+								waiting = false;
+							}, 1000);
+						} else if (letterCount === words[0].length + 1 && waiting === false) {
+							waiting = true;
+							window.setTimeout(function () {
+								x = -1;
+								letterCount += x;
+								waiting = false;
+							}, 1000);
+						} else if (waiting === false) {
+							target.innerHTML = words[0].substring(0, letterCount);
+							letterCount += x;
+						}
+					}, 120);
+					window.setInterval(function () {
+						if (visible === true) {
+							con.className = 'console-underscore hidden';
+							visible = false;
+						} else {
+							con.className = 'console-underscore';
+
+							visible = true;
+						}
+					}, 400);
+				}
+			};
+		</script>
 	</head>
 	<body class="landing is-preload">
 		<!-- Page Wrapper -->
@@ -41,10 +97,14 @@
 			<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h2>Einar Serna</h2>
+					<h2 style="display: flex; justify-content: center; align-items: center; gap: 10px">
+						<image src="assets/images/Bash.svg" width="50" alt="Bash" />
+
+						<span id="text"></span><span class="console-underscore" id="console">&#95;</span>
+					</h2>
 					<p>
 						<strong style="color: #505393">Fullstack Developer</strong><br />
-						Expert with Javascript, Typescript, React, Python, Flask, FastAPI.<br />
+						Expert with Javascript, Python.<br />
 					</p>
 				</div>
 				<a href="#one" class="more scrolly">About me</a>
@@ -55,25 +115,39 @@
 				<div class="inner">
 					<header class="major">
 						<h2>
-							Arcu aliquet vel lobortis ata nisl<br />
-							eget augue amet aliquet nisl cep donec
+							Main Stack<br />
+							Technologies
 						</h2>
 						<p>
-							Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-							fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+							Here are the main technologies with which I have worked and/or with which I have
+							the most experience.
 						</p>
 					</header>
 					<ul class="icons major">
-						<li>
-							<span class="icon fa-gem major style1"><span class="label">Lorem</span></span>
+						<li style="display: inline-block">
+							<image
+								src="assets/images/FastAPI.svg"
+								style="background-color: white; border-radius: 80px"
+								width="80"
+								alt="FastAPI"
+							/>
+							<br />
+							FastAPI
 						</li>
 						<li>
-							<span class="icon fa-heart major style2"><span class="label">Ipsum</span></span>
+							<image src="assets/images/React.svg" class="bg-white" width="80" alt="React" />
+							<br />
+							React
 						</li>
 						<li>
-							<span class="icon solid fa-code major style3"
-								><span class="label">Dolor</span></span
-							>
+							<image
+								src="assets/images/PostgresSQL.svg"
+								class="bg-white"
+								width="80"
+								alt="PostgreSQL"
+							/>
+							<br />
+							PostgreSQL
 						</li>
 					</ul>
 				</div>
@@ -85,38 +159,32 @@
 					<div class="image"><img src="images/pic01.jpg" alt="" /></div>
 					<div class="content">
 						<h2>
-							Magna primis lobortis<br />
-							sed ullamcorper
+							I little bit<br />
+							of MYSELF
 						</h2>
-						<p>
-							Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris
-							eleifend fringilla nullam aenean mi ligula.
+						<p class="justify-text">
+							Full-Stack Developer with over 7 years of experience building diverse software
+							solutions, including desktop applications, scripts, and scalable web platforms.
 						</p>
 					</div>
 				</section>
 				<section class="spotlight">
 					<div class="image"><img src="images/pic02.jpg" alt="" /></div>
 					<div class="content">
-						<h2>
-							Tortor dolore feugiat<br />
-							elementum magna
-						</h2>
-						<p>
-							Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris
-							eleifend fringilla nullam aenean mi ligula.
+						<h2>Proficent</h2>
+						<p class="justify-text">
+							.NET, FastAPI, React, and Next.js, with extensive experience connecting to
+							databases like PostgreSQL, MySQL, MSSQL, MongoDB, and Firebase.
 						</p>
 					</div>
 				</section>
 				<section class="spotlight">
 					<div class="image"><img src="images/pic03.jpg" alt="" /></div>
 					<div class="content">
-						<h2>
-							Augue eleifend aliquet<br />
-							sed condimentum
-						</h2>
-						<p>
-							Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris
-							eleifend fringilla nullam aenean mi ligula.
+						<h2>Skilled</h2>
+						<p class="justify-text">
+							Deploying in Docker, AWS, and local servers.<br />
+							Implementing CI/CD pipelines with GitHub Actions and Jenkins. <br />
 						</p>
 					</div>
 				</section>
@@ -200,12 +268,14 @@
 			<footer id="footer">
 				<ul class="icons">
 					<li>
-						<a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a>
+						<a
+							href="https://www.hackerrank.com/profile/Jhordany_Serna"
+							class="icon brands fas fa-hackerrank"
+							><span class="label">HackerRank</span></a
+						>
 					</li>
 					<li>
-						<a
-							href="https://www.linkedin.com/in/einar-serna-539100129"
-							class="icon brands fa-linkedin"
+						<a href="https://www.linkedin.com/in/einar-serna" class="icon brands fa-linkedin"
 							><span class="label">LinkedIn</span></a
 						>
 					</li>
@@ -218,6 +288,10 @@
 						<a href="mailto:jhordany.serna@gmail.com" class="icon solid fa-envelope"
 							><span class="label">Email</span></a
 						>
+					</li>
+
+					<li>
+						<a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a>
 					</li>
 				</ul>
 				<ul class="copyright">
