@@ -1,0 +1,12 @@
+---
+export interface Props {
+  icon: string;
+  className:string
+}
+
+const { icon, className} = Astro.props as Props;
+const { default: innerHTML } = await import(`/src/icons/${icon}.svg?raw`);
+---
+<div class={`inline-block ${className} align-middle`}>
+    <Fragment set:html={innerHTML} />
+</div>
