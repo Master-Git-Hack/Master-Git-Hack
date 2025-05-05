@@ -21,8 +21,8 @@ I'm a Full-Stack Developer with a strong focus on <ins>backend development</ins>
 * 🌐 Designing scalable web applications
 * 🗺️ Optimizing spatial queries
 * ⚡ Developing high-performance APIs
-* 🛠️ Implementing CI/CD pipelines <img src="https://img.shields.io/badge/CI/CD-Pipelines-brightgreen.svg?style=flat-square" alt="CI/CD Pipelines Badge">
-* 🔒 Enhancing system security <img src="https://img.shields.io/badge/Security-Focused-yellow.svg?style=flat-square" alt="Security Focused Badge">
+* 🛠️ Implementing <img src="https://img.shields.io/badge/CI/CD-Pipelines-brightgreen.svg?style=flat-square" alt="CI/CD Pipelines Badge">
+* 🔒 Enhancing <img src="https://img.shields.io/badge/Security-Focused-yellow.svg?style=flat-square" alt="Security Focused Badge">
 
 ## 🛠️ Technical Skills
 
