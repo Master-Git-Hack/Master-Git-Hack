@@ -1,9 +1,13 @@
 <div style="background-color:#1a202c; color:#f7fafc; padding:20px; text-align:center; border-radius:8px; font-family: 'Arial', sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
   <div style="display: flex; align-items: center; justify-content: center; gap: 20px; max-width: 800px; margin: 0 auto;">
     <img
-      src="https://placehold.co/150x150/EEE/31343C"
+      src="https://github.com/Master-Git-Hack/Master-Git-Hack/blob/main/Banner.jpeg"
       alt="Developer with Laptop"
-      style="border-radius: 50%; border: 2px solid #63b3ed; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); width: 150px; height: 150px;"
+      style="border-radius: 30px; /* Ajusta el valor para redondear los bordes */
+             width: 25%; /* Para que la imagen intente ocupar todo el ancho del contenedor */
+             height: 25%; /* Para mantener la proporción de aspecto */
+             object-fit: contain; /* Asegura que la imagen completa se vea dentro del contenedor sin recortarse, manteniendo su proporción */
+             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
     />
     <div style="text-align: left;">
       <h1 style="font-size: 2em; color: #f56565; margin-bottom: 10px;">👋 Hi, I'm Einar Serna <img src="https://img.shields.io/badge/Fullstack-Developer-blue.svg?style=flat-square" alt="Fullstack Developer Badge"></h1>
